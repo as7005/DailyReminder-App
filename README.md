@@ -12,16 +12,27 @@ A simple reminder app built with Flask for the backend and Streamlit for the fro
 
 ## Technologies Used
 
-- **Backend**:
-  - Python (Flask)
-  - SQLite (for database storage)
-- **Frontend**:
-  - Streamlit (for building the user interface)
-  - Speech Recognition (for voice input)
-  - Pydub (for audio conversion)
-- **Others**:
-  - pyttsx3 (for text-to-speech functionality)
+### Backend:
 
+- **Flask**: A micro web framework for Python used for the backend.
+  ![Flask Logo](https://raw.githubusercontent.com/pallets/flask/main/docs/_static/flask-logo.png)
+
+- **SQLite**: A lightweight database used for storing user data and reminders.
+  ![SQLite Logo](https://upload.wikimedia.org/wikipedia/commons/8/87/Sqlite-square.svg)
+
+### Frontend:
+
+- **Streamlit**: A framework to quickly create data applications and interactive UIs.
+  ![Streamlit Logo](https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg)
+
+- **Speech Recognition**: A Python library for speech-to-text conversion.
+  ![Speech Recognition](https://upload.wikimedia.org/wikipedia/commons/6/60/Google_Speech_Recognition_logo.svg)
+
+- **Pydub**: A simple and easy-to-use Python library for manipulating audio files.
+  ![Pydub Logo](https://pydub.com/static/logo.svg)
+
+- **pyttsx3**: A library used for text-to-speech conversion.
+  ![pyttsx3 Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Logo_of_pyttsx3.svg/1280px-Logo_of_pyttsx3.svg.png)
 ## Setup and Installation
 
 ### Prerequisites
