@@ -1,5 +1,10 @@
 # Daily Reminder App
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![Flask](https://img.shields.io/badge/Flask-2.0+-darkgreen)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.0+-brightgreen)
+![Status](https://img.shields.io/badge/Status-Prototype-orange)
+
 A simple reminder app built with Flask for the backend and Streamlit for the frontend. This app allows users to register, log in, and manage their reminders. Users can add, edit, view, and delete reminders, with options to set priorities and notification times.
 
 ## Features
@@ -15,24 +20,19 @@ A simple reminder app built with Flask for the backend and Streamlit for the fro
 ### Backend:
 
 - **Flask**: A micro web framework for Python used for the backend.
-  ![Flask Logo](https://raw.githubusercontent.com/pallets/flask/main/docs/_static/flask-logo.png)
 
 - **SQLite**: A lightweight database used for storing user data and reminders.
-  ![SQLite Logo](https://upload.wikimedia.org/wikipedia/commons/8/87/Sqlite-square.svg)
 
 ### Frontend:
 
 - **Streamlit**: A framework to quickly create data applications and interactive UIs.
-  ![Streamlit Logo](https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.svg)
 
 - **Speech Recognition**: A Python library for speech-to-text conversion.
-  ![Speech Recognition](https://upload.wikimedia.org/wikipedia/commons/6/60/Google_Speech_Recognition_logo.svg)
 
 - **Pydub**: A simple and easy-to-use Python library for manipulating audio files.
-  ![Pydub Logo](https://pydub.com/static/logo.svg)
 
 - **pyttsx3**: A library used for text-to-speech conversion.
-  ![pyttsx3 Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Logo_of_pyttsx3.svg/1280px-Logo_of_pyttsx3.svg.png)
+  
 ## Setup and Installation
 
 ### Prerequisites
