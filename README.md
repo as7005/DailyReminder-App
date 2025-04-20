@@ -1,5 +1,41 @@
+# Daily Reminder App
 
-# Daily Reminder App (Streamlit + Flask)
+A simple reminder app built with Flask for the backend and Streamlit for the frontend. This app allows users to register, log in, and manage their reminders. Users can add, edit, view, and delete reminders, with options to set priorities and notification times.
+
+## Features
+
+- **User Authentication**: Register and log in to the app.
+- **Reminder Management**: Add, edit, view, and delete reminders.
+- **Voice Recognition**: Use voice commands to input reminders.
+- **Priority & Notification Time**: Set priority and specific notification times for each reminder.
+- **Audio Conversion**: Convert recorded audio to text for reminders.
+
+## Technologies Used
+
+- **Backend**:
+  - Python (Flask)
+  - SQLite (for database storage)
+- **Frontend**:
+  - Streamlit (for building the user interface)
+  - Speech Recognition (for voice input)
+  - Pydub (for audio conversion)
+- **Others**:
+  - pyttsx3 (for text-to-speech functionality)
+
+## Setup and Installation
+
+### Prerequisites
+
+Make sure you have the following installed:
+- Python 3.x
+- Git (for version control)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/as7005/DailyReminder-App.git
+cd DailyReminder-App
+
 
 ## 🔧 Setup
 
